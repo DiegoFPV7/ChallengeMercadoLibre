@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:background="@drawable/fondoprincipal"
+    android:padding="10dp"
+    tools:context=".ProductoActivity">
+
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/proIVImagenProducto"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+<LinearLayout
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Nombre"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gris"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:id="@+id/protvNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Garantia"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gris"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/protvGarantia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Precio"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gris"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:id="@+id/protvPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:background="@color/black"
+        android:id="@+id/proBtnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/comprar" />
+</LinearLayout>
+
+
+</LinearLayout>

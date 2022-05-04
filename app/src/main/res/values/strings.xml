@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChallengeMercadoLibre</string>
+    <string name="validando_conexion">Validando Conexion</string>
+    <string name="error_conexion">Error de conexión</string>
+    <string name="descripcion_error_conexion">Esta aplicación necesita acceso a internet, por favor valide su conexión e intentelo de nuevo</string>
+    <string name="error_cargando_productos">Error cargando productos, intentelo de nuevo</string>
+    <string name="mensaje_buscador_vacio">Debe escribir por lo menos 4 caracteres</string>
+    <string name="buscando">Buscando </string>
+    <string name="comprar">Comprar </string>
+
+</resources>

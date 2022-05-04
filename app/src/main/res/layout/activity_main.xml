@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoprincipal"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="@drawable/encabezado"
+        android:gravity="center|bottom"
+        android:layout_weight="70"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/fondo_editext"
+            android:orientation="horizontal">
+
+            <EditText
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gris"
+                android:id="@+id/principalEtBuscador"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:hint="Buscar producto"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/principalBtnBuscar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="90"
+                android:background="@android:drawable/ic_search_category_default" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/principalRvProductos"
+        android:layout_weight="35"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Creado por Diego Fernando Pino Victoria"
+        android:layout_weight="95"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
